@@ -1,0 +1,17 @@
+{% extends 'inventory/base.html' %}
+{% block content %}
+<h2>{{ form.instance.pk|yesno:"Edit Product,Add Product" }}</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
+{% endblock %}
+
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <a href="{% url 'category_create' %}" target="_blank">+ Add New Category</a><br>
+  <a href="{% url 'supplier_create' %}" target="_blank">+ Add New Supplier</a><br>
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>

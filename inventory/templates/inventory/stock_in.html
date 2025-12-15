@@ -1,0 +1,12 @@
+{% extends 'inventory/base.html' %}
+{% block content %}
+<h2>Stock In - {{ product.name }}</h2>
+<form method="post">
+  {% csrf_token %}
+  <div class="mb-3">
+    <label>Quantity</label>
+    <input type="number" name="quantity" class="form-control" min="1" required>
+  </div>
+  <button type="submit" class="btn btn-success">Update Stock</button>
+</form>
+{% endblock %}

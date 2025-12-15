@@ -1,0 +1,29 @@
+{% extends 'inventory/base.html' %}
+
+{% block content %}
+<h2>Stock History</h2>
+
+<table border="1" cellpadding="8">
+    <tr>
+        <th>Product</th>
+        <th>Type</th>
+        <th>Quantity</th>
+        <th>User</th>
+        <th>Date</th>
+    </tr>
+
+    {% for h in histories %}
+    <tr>
+        <td>{{ h.product.name }}</td>
+        <td>{{ h.change_type }}</td>
+        <td>{{ h.quantity }}</td>
+        <td>{{ h.updated_by.username|default:"-" }}</td>
+        <td>{{ h.date }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="5">No stock history found</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
