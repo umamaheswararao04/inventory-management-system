@@ -71,31 +71,40 @@ cd inventory-management-system
 
 
 ---
-
 ## 📸 Screenshots
 
-### Admin – Products Management
+### 🔐 Login Page
+![Login Page](https://github.com/user-attachments/assets/c947680b-a437-40a7-8943-7f860aa25f97)
+
+---
+
+### 📦 Admin – Products Management
 ![Admin Products](https://github.com/user-attachments/assets/b97bb148-948f-446a-9943-e6d83297b81f)
 
-### Admin – Edit Product
+---
+
+### ✏️ Admin – Edit Product
 ![Edit Product](https://github.com/user-attachments/assets/4a61ac93-9606-436c-a90f-18502d18efa6)
 
-### Login Page
-![Login](https://github.com/user-attachments/assets/c947680b-a437-40a7-8943-7f860aa25f97)
+---
 
-### Staff – Products View
+### 👨‍💼 Staff – Products View
 ![Staff Products](https://github.com/user-attachments/assets/f8c819d5-c6f3-4646-a3a9-5314e011518f)
 
-### Stock History
+---
+
+### 📜 Stock History
 ![Stock History](https://github.com/user-attachments/assets/e3288cfa-ad94-4786-a6ef-50e23eb851b9)
 
-### Stock In
+---
+
+### ➕ Stock In
 ![Stock In](https://github.com/user-attachments/assets/da773d04-2112-47c7-8d47-46bdba60621b)
 
-### Stock Out
+---
+
+### ➖ Stock Out
 ![Stock Out](https://github.com/user-attachments/assets/cf0d213-8045-4bbf-b3ae-75a528452c0c)
-
-
 
 
 
